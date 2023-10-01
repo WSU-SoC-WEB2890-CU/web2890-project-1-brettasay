@@ -1,0 +1,39 @@
+body .card .list-group,.accordion-body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+h1 {
+    font-family:'Space Mono', monospace;
+    font-weight:bold !important;
+    color: $yellow-dk;
+    padding: 2.5rem;
+    //border-bottom: 0.5rem solid $yellow-dk;
+  }
+
+h2 {
+  font-family: 'Poppins', sans-serif !important;
+  color: $shade-dk;
+}
+  
+p {
+  font-family: 'Poppins', sans-serif;
+  color: $yellow-dk;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+h5{
+padding: 0.5rem;
+border-bottom: solid 0.5rem $purple-rain;
+}
+
+.btn-primary {
+font-size: 2.5rem;
+font-weight: bolder !important;
+font-family: 'Poppins', sans-serif !important;
+}
+
+.form-group {
+  font-family: 'Poppins', sans-serif;
+}
+

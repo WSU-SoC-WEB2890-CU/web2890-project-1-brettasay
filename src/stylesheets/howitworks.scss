@@ -1,0 +1,28 @@
+@import "custom.scss";
+
+.hiw {
+    margin-bottom: 0;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    @include gradient;
+
+    .card {
+        border-color: $shade-lt;
+        border-width: 1rem;
+        border-radius: 1rem;
+        justify-content: center;
+        align-self: center;
+       
+    }
+
+    .card-body {
+        p {
+            color: $shade-dk;
+        }
+    }
+}
+
+.card-fixed-height{
+    height: 40vh;
+}

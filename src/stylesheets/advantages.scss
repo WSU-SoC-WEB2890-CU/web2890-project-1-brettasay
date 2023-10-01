@@ -1,0 +1,18 @@
+.advantages {
+    margin-bottom: 0;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    @include gradient;
+
+    .list-group {
+        background-color: $shade-md !important;
+        font-family: 'Poppins', sans-serif !important;
+        font-size: larger;
+        border-radius: 1rem;
+        li {
+            background-color: $shade-lt !important;
+            color: $shade-dk;
+        }
+    }
+}

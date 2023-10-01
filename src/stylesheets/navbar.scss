@@ -1,0 +1,21 @@
+@import 'custom.scss';
+
+body {
+    @include gradient;
+}
+
+
+.navbar {
+    background-color: $shade-lt;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold !important;
+    color: $shade-dk;
+    .nav-item {
+        padding: 1rem;
+        :hover{
+            background-color: $yellow-dk;
+        }
+        
+    }
+}
+

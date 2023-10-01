@@ -1,0 +1,22 @@
+.btn-primary {
+    background-color: $button !important;
+    border-color: $button !important;
+    width: auto;
+    border-radius: 0.25rem;
+    
+    &:hover {
+        background-color: $button-hover !important;
+        border-color: $button-hover !important;
+    }
+
+    .btn-link {
+        background-color: $button !important;
+        border-color: $button !important;
+    }
+
+}
+
+.btn-info {
+    background-color: $button2 !important;
+    border-color: $button2 !important;
+}

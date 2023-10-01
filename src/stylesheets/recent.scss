@@ -1,0 +1,14 @@
+.recent {
+    margin-bottom: 0;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    @include gradient;
+    h5 {
+        border-bottom: none;
+    }
+    
+}
+.card-header {
+    background-color: $button2;
+}

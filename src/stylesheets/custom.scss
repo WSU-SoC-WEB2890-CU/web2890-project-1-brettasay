@@ -1,0 +1,44 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "bootstrap-icons/font/bootstrap-icons.scss";
+
+//COLORS
+$yellow: #F5FF30;
+$yellow-dk: #DCE62C;
+$button:#37E68F;
+$button-hover: #4DB32B;
+$button2: #FFAB43;
+$purple-rain:#835AE6;
+
+//GRADIENT
+$sky0:#A6E5FA;
+$sky1:#00D0FF;
+$sky2:#2AA7FA;
+$sky3:#207CBA;
+$sky4:#009CFF;
+
+//SHADES
+$background:#F2F2F2;
+$shade-lt: #E6E6E6;
+$shade-md: #BFBFBF;
+$shade-dk: #404040;
+
+@mixin gradient {
+  background: linear-gradient(to right, $sky0 0%, $sky0 0.5%, $sky1 5%, $sky1 20%, $sky2 30%, $sky2 40%, 
+  $sky4 60%, $sky4 70%, $sky1 80%, $sky1 95%, $sky0 99.95%, $sky0 100%
+  );
+}
+
+body .card{
+  font-family: 'Poppins', sans-serif;
+}
+
+.card{
+  font-size:larger;
+  font-weight:600;
+  .card-body{
+    background-color: $shade-lt;
+  }
+}
+
+
+

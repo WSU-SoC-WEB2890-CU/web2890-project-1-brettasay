@@ -1,0 +1,18 @@
+.testimonials {
+    margin-bottom: 0;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    @include gradient;
+    .row {
+        justify-content: center;
+    }
+    .carousel-inner {
+        border-radius: 1rem;
+    }
+}
+
+#myCarousel {
+    width:50%;
+    height: 50%;
+}

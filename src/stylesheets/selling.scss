@@ -1,0 +1,14 @@
+.selling {
+    margin-bottom: 0;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    @include gradient;
+    .row {
+        justify-content: center;
+        padding: 1rem;
+        img {
+            width: 50%;
+        }
+    }
+}

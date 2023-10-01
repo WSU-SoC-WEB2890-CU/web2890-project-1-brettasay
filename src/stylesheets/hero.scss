@@ -1,0 +1,39 @@
+.hero-section{
+    .col-md-6{
+        padding: 0;
+    }
+}
+
+
+
+.hero-left {
+    background-image:url(/images/heroimg.jpg);
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    color: $yellow;
+    h1{
+        font-size:4.5rem;
+        color: $purple-rain;
+        padding: 1.5rem;
+    }
+    p{
+        padding:1.5rem;
+    }
+   }
+
+.overlay {
+    background: $shade-md;
+    padding: 20px;
+    color:black;
+}
+
+.form-group{
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+.form-group {
+    font-family: 'Poppins', sans-serif;
+  }
